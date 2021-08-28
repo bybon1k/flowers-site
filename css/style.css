@@ -1,106 +1,122 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: "Arial", sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    color: #444444;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+
   }
   
   h1 {
-    width: 255px;
-    margin: 0 auto 8px;
-    font-family: "Arial", sans-serif;
-    text-align: center;
+    font-family: Playfair Display;
+    font-style: normal;
     font-weight: normal;
-    font-size: 56px;
-    line-height: 64px;
+    font-size: 44px;
+    line-height: 59px;
+    
+    color: #AE7C78;
+  }
+
+  .main-blick__description_title {
+    font-style: italic;
+  }
+
+  .main-blick__description p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #AE7C78;
   }
   
-  .container {
-    width: 510px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+ ul {
+  list-style:none;
+
+ }
+
+ li {
+  display: inline;
+ }
+
+ a {
+   text-decoration: none;
+   font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #AE7C78;
+ }
+
+ .page-nav_list {
+   text-align: justify;
+   border-top: 1px solid #AE7C78;
+   border-bottom: 1px solid #AE7C78;
+ }
+
+ .view-catalog {
+  width: 285px;
+  height: 80px;
+  background: #D89999;
+  border-radius: 40px;
+ }
+
+ .view-catalog a {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #FFFFFF;
   
-  .site-header {
-    min-width: 550px;
-    height: 186px;
-    margin-bottom: 150px;
-    padding-top: 30px;
-    background: #847462 no-repeat center url("img/gloevk-bg.jpg");
-    background-size: cover;
-    color: #ffffff;
-  }
-  
-  .site-header p {
-    width: 255px;
-    margin: 0 auto 26px;
-    text-align: center;
-    font-size: 16px;
-    line-height: 24px; 
-  }
-  
-  .site-header img {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .features {
-    width: 510px;
-    margin: 0 auto 30px;
-    padding: 0 20px;
-  }
-  
-  .features p {
-    display: inline-block;
-    vertical-align: top;
-    width: 30%;
-    margin: 0 5px;
-    background-repeat: no-repeat;
-    background-position: center top;
-  }
-  
-  .feature-furniture {
-    padding-top: 65px;
-    background-image: url("img/furniture.svg");
-  }
-  
-  .feature-lighting {
-    padding-top: 65px;
-    background-image: url("img/lighting.svg");
-  }
-  
-  .feature-accessories {
-    padding-top: 65px;
-    background-image: url("img/accessories.svg");
-  }
-  
-  .advantages {
-    width: 510px;
-    margin: 0 auto 40px;
-    padding: 0 20px;
-  }
-  
-  .advantages-list {
-    padding: 0;
-  }
-  
-  .site-footer {
-    min-width: 550px;
-    background-color: #847462;
-    color: #ffffff;
-  }
-  
-  .site-footer .container {
-    text-align: center;
-  }
-  
-  .site-footer p {
-    display: inline-block;
-    vertical-align: middle;
-    padding: 0 20px;
-  }
-  
-  
-  
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+
+
+ .main-block__image {
+   text-align: right;
+ }
+
+.discount {
+  background: #AE7C78;
+}
+
+.discount__description p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+.discount__image {
+  text-align: right;
+}
+
+
+.icondop-delivery::after {
+  content: url(\icon-machine.svg); 
+  width: 82px;
+  height: 52px;
+}
+
+.icondop-fresh::after {
+  content: url(\icon-bouquet-a.svg); 
+  width: 52px;
+  height: 52px;
+}
+
+.icondop-camera::after {
+  content: url(\icon-photo.svg); 
+  width: 58px;
+  height: 52px;
+}
+
