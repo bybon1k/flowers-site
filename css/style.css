@@ -41,6 +41,11 @@ body {
   display: inline;
  }
 
+ .page-nav__item {
+  margin-left: 102px;
+  margin-right: 102px;
+ }
+
  a {
    text-decoration: none;
    font-family: Montserrat;
